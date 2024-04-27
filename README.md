@@ -15,9 +15,9 @@ Visualizes the distribution of player salaries using a histogram.
 Categorizes salaries into ranges and presents the frequency distribution using a count plot.
 
 
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/33ef9a01-d88f-434d-810b-a3db45d8130b" width="400" height="790">
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/8657313e-a37a-4691-aad1-4fa846f62b06=150x150" width="400" height="790">
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/aa13a9cf-06b5-4b29-8f5a-669ce8a76fae=150x150" width="400" height="790">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/33ef9a01-d88f-434d-810b-a3db45d8130b" width="400" height="400">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/8657313e-a37a-4691-aad1-4fa846f62b06=150x150" width="400" height="400">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/aa13a9cf-06b5-4b29-8f5a-669ce8a76fae=150x150" width="400" height="400">
 
 3. Data Cleaning
 Boxplot of top NBA Salary Predictors.
@@ -25,26 +25,26 @@ Anomaly Detection to detect outliers - PCA Visualization (Principal Component An
 MP (Minutes Played) Bar Graph.
 Feature engineering to create 3 new variables MP_Grade, TRB_Category, GS_Grade.
 We also used data imputation as a part of feature engineering to substitute the missing values with the mean values of that particular column.
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/96632b30-37c5-4ace-8b23-f8b42be6e509=150x150" width="400" height="790">
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/0ed4b00e-e29f-4658-82a6-0ba7748ec319=150x150" width="400" height="790">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/96632b30-37c5-4ace-8b23-f8b42be6e509" width="400" height="400">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/0ed4b00e-e29f-4658-82a6-0ba7748ec319" width="400" height="400">
 
 4. Correlation Analysis
 Calculates the correlation between player salaries and other numerical features such as games played, total rebounds, and points scored.
 Identifies features that exhibit high correlation with player salaries through a correlation matrix heatmap. Visualizes the correlation matrix heatmap.
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/96005f92-5e81-44f3-b6d6-e293e8c6f466=150x150" width="400" height="790">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/96005f92-5e81-44f3-b6d6-e293e8c6f466" width="400" height="400">
 
 5. Player Statistics Analysis
 Explores the relationship between various player statistics (e.g., total rebounds, games started) and their impact on salaries.
 Utilizes statistical tests (e.g., Shapiro-Wilk, Levene's) to assess the distribution and homogeneity of player statistics.
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/aaa88acc-132f-4957-a38c-380e26581fe0=150x150" width="400" height="790">
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/256a165b-3ea7-48b9-a007-1a0492c4496a=150x150" width="400" height="790">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/aaa88acc-132f-4957-a38c-380e26581fe0" width="400" height="400">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/256a165b-3ea7-48b9-a007-1a0492c4496a" width="400" height="400">
 
 6. Machine Learning Models
 Implements machine learning models to predict player salaries based on their statistics.
 Utilizes regression models including Linear Regression, Random Forest Regressor, Polynomial Regression, and XGBoost Regressor.
 Employs cross-validation techniques to evaluate model performance and assess generalization to unseen data.
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/9ba6959e-9e32-4a08-967f-8cec750af849=150x150" width="400" height="790">
-<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/57b7a960-539a-4742-8831-e2a86413b10e=150x150" width="400" height="790">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/9ba6959e-9e32-4a08-967f-8cec750af849" width="400" height="400">
+<img src = "https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/57b7a960-539a-4742-8831-e2a86413b10e" width="400" height="400">
 
 7. Neural Network Modeling
 Constructs a neural network using PyTorch to predict player salaries.
