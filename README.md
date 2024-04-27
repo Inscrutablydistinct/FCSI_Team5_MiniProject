@@ -50,3 +50,53 @@ XGBoost Regression - 0.73
 
 
 
+NBA Salary Analysis ReadMe
+
+Overview
+
+This code provides an analysis of NBA player salaries for the 2022-2023 season. It includes visualizations, statistical insights, and machine learning models to understand the factors influencing player salaries.
+
+Code Components
+
+1. Loading and Exploring Data
+The code loads NBA salary data from a CSV file and explores basic statistics.
+It identifies features with missing values and prints the percentage of missing values for each feature.
+2. Salary Distribution Analysis
+Visualizes the distribution of salaries and categorizes them into ranges.
+3. Correlation Analysis
+Calculates the correlation between salary and other numerical features.
+Identifies features highly correlated with salary.
+Visualizes the correlation matrix heatmap.
+4. Player Statistics Analysis
+Analyzes the relationship between player statistics (e.g., total rebounds, games started) and salaries.
+Applies machine learning models to predict salaries based on player statistics.
+5. Statistical Tests and Categorization
+Conducts statistical tests (Shapiro-Wilk and Levene's tests) on salary data.
+Categorizes player statistics into bins for analysis.
+6. Machine Learning Models
+Utilizes various machine learning models to predict player salaries:
+Linear Regression
+Random Forest Regressor
+Polynomial Regression
+XGBoost Regressor
+Neural Network
+Usage
+
+Ensure the necessary libraries (Pandas, Matplotlib, Seaborn, NumPy, Scikit-learn, XGBoost, PyTorch) are installed.
+Place the NBA salary data CSV file in the appropriate directory.
+Run the code in a Python environment (Jupyter Notebook or script).
+Dependencies
+
+Pandas
+Matplotlib
+Seaborn
+NumPy
+Scikit-learn
+XGBoost
+PyTorch
+Note
+
+This code assumes the availability of the NBA salary dataset for the 2022-2023 season in CSV format.
+Adjustments may be required for different datasets or analysis goals.
+
+
