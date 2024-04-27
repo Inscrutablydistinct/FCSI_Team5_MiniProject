@@ -1,28 +1,50 @@
 # FCSI_Team5_MiniProject
 
+Overview
 
-README
-Table of Contents: -
-1.	Problem Definition and Goal
-2.	Exploratory Data Analysis
-3.	Machine Learning and Problem Solving
-4.	Data driven Insights.
-Introduction-
-The NBA is one of the most popular sports leagues and arguably the most popular basketball league in the world comprising of some of the most renowned and revered basketball players. Over time NBA player salaries have been rising continuously and right now the NBA is the highest paying sports league in the world with players earning 8.5million US dollars on average. Behind how salaries of nba players are determined lies a complex and diverse set of reasons and factors such points, FG, FGA etc.
-Goal and Problem Definition: -
-Goal - Determining the factors affecting the salary of an NBA player.
-Problem Definition - What are the main factors that determine the salaries of NBA players?
-Dataset description:
-•	Name: nba_salary.csv
-•	Collection of data of nba players who played in the 2022-2023 regular season
-Exploratory Data Analysis:-
-How we did it?
-1.	Data Visualization
-2.	Database Cleaning
-3.	Data preparation
-Models and Techniques Used:-
-1.	Models - Salary range (Bar Graph)
-2.	Heatmap
+This code offers a comprehensive analysis of NBA player salaries for the 2022-2023 season. By leveraging statistical methods, data visualization techniques, and machine learning models, it aims to uncover insights into the factors influencing player salaries in the NBA.
+
+Code Components
+
+1. Loading and Exploring Data
+The code begins by loading the NBA salary data from a CSV file using the Pandas library.
+It provides an initial exploration of the dataset, including basic statistics and the identification of features with missing values.
+2. Salary Distribution Analysis
+Visualizes the distribution of player salaries using a histogram.
+Categorizes salaries into ranges and presents the frequency distribution using a count plot.
+3. Correlation Analysis
+Calculates the correlation between player salaries and other numerical features such as games played, total rebounds, and points scored.
+Identifies features that exhibit high correlation with player salaries through a correlation matrix heatmap.
+4. Player Statistics Analysis
+Explores the relationship between various player statistics (e.g., total rebounds, games started) and their impact on salaries.
+Utilizes statistical tests (e.g., Shapiro-Wilk, Levene's) to assess the distribution and homogeneity of player statistics.
+5. Machine Learning Models
+Implements machine learning models to predict player salaries based on their statistics.
+Utilizes regression models including Linear Regression, Random Forest Regressor, Polynomial Regression, and XGBoost Regressor.
+Employs cross-validation techniques to evaluate model performance and assess generalization to unseen data.
+6. Neural Network Modeling
+Constructs a neural network using PyTorch to predict player salaries.
+Defines the network architecture, loss function, and optimization algorithm.
+Trains the model on the dataset and evaluates its performance using metrics such as Mean Squared Error and R^2 Score.
+Usage
+
+Ensure that the required Python libraries (Pandas, Matplotlib, Seaborn, NumPy, Scikit-learn, XGBoost, PyTorch) are installed.
+Place the NBA salary data CSV file in the appropriate directory.
+Run the code in a Python environment such as Jupyter Notebook or a Python script.
+Dependencies
+
+Pandas
+Matplotlib
+Seaborn
+NumPy
+Scikit-learn
+XGBoost
+PyTorch
+Note
+
+This code assumes the availability of the NBA salary dataset for the 2022-2023 season in CSV format.
+Adjustments may be necessary for different datasets or analysis goals.
+
 3.	Boxplot of top NBA Salary Predictors
 4.	Anomaly Detection - PCA Visualization (Principal Component Analysis)
 5.	MP (Minutes Played) Bar Graph 
@@ -50,53 +72,5 @@ XGBoost Regression - 0.73
 
 
 
-NBA Salary Analysis ReadMe
-
-Overview
-
-This code provides an analysis of NBA player salaries for the 2022-2023 season. It includes visualizations, statistical insights, and machine learning models to understand the factors influencing player salaries.
-
-Code Components
-
-1. Loading and Exploring Data
-The code loads NBA salary data from a CSV file and explores basic statistics.
-It identifies features with missing values and prints the percentage of missing values for each feature.
-2. Salary Distribution Analysis
-Visualizes the distribution of salaries and categorizes them into ranges.
-3. Correlation Analysis
-Calculates the correlation between salary and other numerical features.
-Identifies features highly correlated with salary.
-Visualizes the correlation matrix heatmap.
-4. Player Statistics Analysis
-Analyzes the relationship between player statistics (e.g., total rebounds, games started) and salaries.
-Applies machine learning models to predict salaries based on player statistics.
-5. Statistical Tests and Categorization
-Conducts statistical tests (Shapiro-Wilk and Levene's tests) on salary data.
-Categorizes player statistics into bins for analysis.
-6. Machine Learning Models
-Utilizes various machine learning models to predict player salaries:
-Linear Regression
-Random Forest Regressor
-Polynomial Regression
-XGBoost Regressor
-Neural Network
-Usage
-
-Ensure the necessary libraries (Pandas, Matplotlib, Seaborn, NumPy, Scikit-learn, XGBoost, PyTorch) are installed.
-Place the NBA salary data CSV file in the appropriate directory.
-Run the code in a Python environment (Jupyter Notebook or script).
-Dependencies
-
-Pandas
-Matplotlib
-Seaborn
-NumPy
-Scikit-learn
-XGBoost
-PyTorch
-Note
-
-This code assumes the availability of the NBA salary dataset for the 2022-2023 season in CSV format.
-Adjustments may be required for different datasets or analysis goals.
 
 
