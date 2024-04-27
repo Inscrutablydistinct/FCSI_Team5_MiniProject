@@ -13,7 +13,7 @@ It provides an initial exploration of the dataset, including basic statistics an
 2. Salary Distribution Analysis
 Visualizes the distribution of player salaries using a histogram.
 Categorizes salaries into ranges and presents the frequency distribution using a count plot.
-![image](https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/33ef9a01-d88f-434d-810b-a3db45d8130b=150x150)
+![image](https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/33ef9a01-d88f-434d-810b-a3db45d8130b | width=100)
 ![image](https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/8657313e-a37a-4691-aad1-4fa846f62b06=150x150)
 ![image](https://github.com/Inscrutablydistinct/FCSI_Team5_MiniProject/assets/121133033/aa13a9cf-06b5-4b29-8f5a-669ce8a76fae=150x150)
 
